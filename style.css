@@ -22,17 +22,31 @@ html, boady{
 #menu{
     display: flex;
     padding: 20px;
+    gap: 30px;
 }
 #menu #logo{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 2px;
+    letter-spacing: 2px;
 }
 #menu #pages{
     display: flex;
+    color: #fff;
 }
+
 #pages h6{
+    text-transform: uppercase;
     justify-content: space-between;
     margin-top: 8px;
     margin-left: 80px;
+    color: #fff;
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 #left #leftimg{ 
     position: absolute;
@@ -41,17 +55,122 @@ html, boady{
     transform: translate(-50%, -50%);
     width: 300px;
     height: 400px;
-    background-image: url(https://images.unsplash.com/photo-1581711901978-8f66b309fc2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1542513217-0b0eedf7005d?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
+}
+#imgcntnt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 105%;
+    color: #fff;
+}
+#cntnt1{
+    display: flex;
+    margin-bottom: 10px;
+}
+#cntnt1 h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+#cntnt1 p{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#cntnt2{
+    display: flex;
+}
+#cntnt2 h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+#cntnt2 p{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#leftline{
+    position: absolute;
+    top: 81%;
+    left: -10%;
+}
+#leftline h6{
+    color: #fff;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+#leftline h6::before{
+    content: "------";
 }
 #center{
     height: 100%;
     width: 45%;
-    background-color: #F2CBD5;   
+    background-image: url(https://images.unsplash.com/photo-1542513217-0b0eedf7005d?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  
+    background-size: cover;
+    background-position: center;
 }
+#htxt{
+    
+}
+#htxt h1{
+    width: 70%;
+    position: absolute;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    top: 50%;
+    letter-spacing: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#htxt h3{
+    width: 70%;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
 #right{
+    position: relative;
     height: 100%;
     width: 10%;
     background-color:#82616D;   
+}
+#rpages{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 10%;
+}
+#rpages a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    margin-bottom: 100px;
+    transform: rotate(-90deg);
+}
+#ricon{
+    position: absolute;
+    color: #fff;
+    right: 20%;
+    margin-top: 15px;
 }
