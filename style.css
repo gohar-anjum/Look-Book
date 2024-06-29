@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, boady{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 45%;
+    background-color: yellow;   
+}
+#left #leftimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    background-color: grey;
+}
+#center{
+    height: 100%;
+    width: 45%;
+    background-color: red;   
+}
+#right{
+    height: 100%;
+    width: 10%;
+    background-color: green;   
+}
