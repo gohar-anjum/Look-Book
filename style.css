@@ -14,6 +14,7 @@ html, boady{
     height: 100%;
 }
 #left{
+    overflow: hidden;
     position: relative;
     height: 100%;
     width: 45%;
